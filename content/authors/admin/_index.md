@@ -1,19 +1,19 @@
 ---
 # Display name
-title: Alex Johnson
+title: Mehrshad Zandigohar
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Mehrshad
+last_name: Zandigohar
 
 # Pronouns (optional)
 pronouns: he/him
 
 # Status emoji
-status:
+status: 💻
   icon: 🚀
 
 # Is this the primary user of the site?
@@ -23,83 +23,97 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: ML Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: 
+    url: 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:cmehrshad@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/alexjohnsonai
+  # - icon: brands/x
+  #   url: https://twitter.com/AlexAIResearch
+  # - icon: brands/github
+  #   url: https://github.com/cmehrshad
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/cmehrshad/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=rm15EMkAAAAJ
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
+  - Machine Learning
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Large Language Models
+  - Efficient AI
+  - Robotics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD Computer Engineering (AI Focus)
+    institution: Northeastern University
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2018-09-01
+    date_end: 2025-04-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+      Thesis centers on vision-language models, multimodal learning, and efficient deployment of deep learning. Proposed Grasp-LLaVA, a model that combines CLIP and Vicuna to perform zero-shot grasp classification using semantic cues like shape and feasibility, significantly outperforming traditional methods. Also studies on prosthetic hand control by fusing EMG and visual data, leading to real-time, high-accuracy grasp intent detection on a robot embedded platform. Additionally includes optimized CNNs for deployment using TensorRT and proposed new methods like NetCut for faster inference and CAEN for improving adversarial robustness.
+  - area: MS Computer Science and Engineering
+    institution: Northeastern University
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+    date_start: 2018-09-01
+    date_end: 2021-05-31
     summary: |
       GPA: 3.9/4.0
 
-      Minored in Mathematics. President of AI Club.
+      Specialized in machine learning and robotics.
+  - area: BS Computer Engineering
+    institution: Sharif University of Technology
+    icon: ""
+    date_start: 2012-09-01
+    date_end: 2017-09-01
+    summary: |
+      GPA: 3.2/4.0
+
+      Among the top 0.07% in the nationwide university entrace exam.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: ML Engineer and Data Scientist
+    company_name: Vanasse Hangen Brustlin, Inc. (VHB)
+    company_url: 'https://www.vhb.com/'
     icon: ''
-    date_start: 2020-01-01
-    date_end: ''
+    date_start: 2025-01-01
+    date_end: 2025-06-01
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      ◦ Elder Care Health Bot: Developed a chatbot based on agentic framework of LlamaIndex Workflows to detect user intent and route to different functionalities. Built and maintained a Retrieval-Augmented Generation (RAG) pipeline to extract patient documents and proactively call ML endpoints to detect diseases. Enhanced user personalization through chatbot memory, health docs and email alerts. Analyzed data from wearable devices to detect anomalies in user health. ◦ Traffic Analyzer: Developed vehicle detection, tracking, re-identification to provide traffic insights and safety precautions. ◦ DOT Copilot: Developed a MS Copilot agent to fetch DOT information with integrated VideoIndexer capabilities to enable processing of videos in Copilot.
+  - position: Interim Engineering Intern
+    company_name: Qualcomm Technologies, Inc.
+    company_url: 'https://www.qualcomm.com/'
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2022-09-01
+    date_end: 2023-4-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      ◦ ML-based Mitigation of Decoupling Noise in WLAN: Developed an advanced ensemble machine learning model,leveraging the ExtraTreesClassifier algorithm, to proactively predict and mitigate decoupling noise in a leading client’s product. This solution enabled precise, ahead-of-time adjustments to WLAN parameters, significantly reducing potential noise interference and enhancing product reliability. ◦ WLAN 11ax Power Analyzer: Developed from scratch a new power analyzer model that accurately captures all power states in WLAN logs, as showcased in a project with a major client. This model features an innovative, interactive visualization tool for examining power measurements, matching hardware precision and significantly enhancing diagnostic capabilities.
+  - position: Graduate Research Assistant
+    company_name: Northeastern University
+    company_url: 'https://www.northeastern.edu/'
+    icon: ''
+    date_start: 2018-09-01
+    date_end: 2025-4-31
+    summary: |
+      Researched and developed end-to-end project development, from dataset creation and model training to deployment optimizations.
+  - position: Software Engineer
+    company_name: ViraTech
+    company_url: 'http://viratech.ir/'
+    icon: ''
+    date_start: 2014-01-01
+    date_end: 2015-6-31
+    summary: |
+      Developed the client and server sides of several clients using Angular, Bootstrap and Java.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -135,11 +149,11 @@ skills:
         percent: 70
         icon: book-open
 
-languages:
-  - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Spanish
+#     percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -169,4 +183,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Mehrshad Zandigohar is an experienced Machine Learning Engineer, and applied scientist with a proven record of end-to-end project development, from dataset creation and model training to deployment optimizations. He is experienced with agentic workflows, LLM fine-tuning, training CNNs and Transformers and is proficient in a wide range of programming languages and frameworks, with a strong adaptability to new technologies. He has over 10 years of hands-on experience in Python and C++.
