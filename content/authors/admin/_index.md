@@ -13,8 +13,8 @@ last_name: Zandigohar
 pronouns: he/him
 
 # Status emoji
-status: 💻
-  icon: 🚀
+status: 
+  icon: 💻
 
 # Is this the primary user of the site?
 superuser: true
