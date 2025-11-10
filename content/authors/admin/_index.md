@@ -160,27 +160,13 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: 2024 Outstanding Article
+    url: https://www.frontiersin.org/books/Frontiers_in_Robotics_and_AI_editors_picks_2024/
+    date: '2025-03-13'
+    awarder: Frontiers in Robotics and AI
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Awarded for significant research contribution and readership impact.
 ---
 
-Mehrshad Zandigohar is an experienced Machine Learning Engineer, and applied scientist with a proven record of end-to-end project development, from dataset creation and model training to deployment optimizations. He is experienced with agentic workflows, LLM fine-tuning, training CNNs and Transformers and is proficient in a wide range of programming languages and frameworks, with a strong adaptability to new technologies. He has over 10 years of hands-on experience in Python and C++.
+Hi there! I am an experienced Machine Learning Engineer, and applied scientist with a proven record of end-to-end project development, from dataset creation and model training to deployment optimizations. I am experienced with agentic workflows, LLM fine-tuning, training CNNs and Transformers and am proficient in a wide range of programming languages and frameworks, with a strong adaptability to new technologies. I have over 10 years of hands-on experience in Python and C++.
