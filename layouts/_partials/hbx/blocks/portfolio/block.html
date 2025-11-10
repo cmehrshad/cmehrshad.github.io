@@ -1,6 +1,4 @@
 {{/* Hugo Blox: Custom Tailwind Portfolio Block */}}
-{{/* This mimics the Bootstrap portfolio widget's behavior (tag filters etc.)
-     but uses Tailwind classes and simple JS. */}}
 
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
@@ -40,7 +38,6 @@
   {{ $query := site.Pages }}
 
   {{ with $block.content.page_type }}
-    {{/* legacy, optional */}}
     {{ $query = where $query "Type" . }}
   {{ end }}
 
@@ -62,8 +59,7 @@
 
   {{/* Sort */}}
   {{ $sort_by := $block.content.sort_by | default "Date" }}
-  {{ $sort_by = partial "blox-core/functions/get_sort_by_parameter" $sort_by }}
-  {{ $sort_ascending := $block.content.sort_ascending | default (eq $block.content.order "asc") | default false }}
+  {{ $sort_ascending := $block.content.sort_ascending | default false }}
   {{ $sort_order := cond $sort_ascending "asc" "desc" }}
   {{ $query = sort $query $sort_by $sort_order }}
 
@@ -81,7 +77,6 @@
         class="portfolio-item transition
                {{ if eq $view "showcase" }}md:col-span-2{{ end }}"
         data-tags="{{ $tags_str }}">
-        {{/* Reuse existing card/list rendering if available */}}
         {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index) }}
       </article>
     {{ end }}
@@ -121,7 +116,6 @@
           });
         });
 
-        // Apply default filter (first button) on load
         const first = root.querySelector('[data-filter-tag]');
         if (first) {
           const defaultTag = first.getAttribute('data-filter-tag') || '*';
