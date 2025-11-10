@@ -1,0 +1,133 @@
+{{/* Hugo Blox: Custom Tailwind Portfolio Block */}}
+{{/* This mimics the Bootstrap portfolio widget's behavior (tag filters etc.)
+     but uses Tailwind classes and simple JS. */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $columns := $block.design.columns | default "1" }}
+{{ $view := $block.design.view | default "masonry" }}
+
+<div class="w-full {{ if eq $columns "2" }}lg:w-2/3{{ end }}" data-portfolio-root>
+  {{ with $block.content.text }}
+    <div class="mb-4 prose max-w-none">
+      {{ . | $page.RenderString | emojify }}
+    </div>
+  {{ end }}
+
+  {{ if $block.content.buttons }}
+    {{ $filter_default := default (int $block.content.default_button_index) 0 }}
+    {{ $default_button := index $block.content.buttons $filter_default }}
+
+    <div class="flex flex-wrap gap-2 mb-6" data-portfolio-buttons>
+      {{ range $idx, $btn := $block.content.buttons }}
+        <button
+          type="button"
+          class="px-3 py-1 text-sm rounded border transition
+                 {{ if eq $idx $filter_default }}
+                   bg-gray-900 text-white border-gray-900
+                 {{ else }}
+                   bg-white text-gray-700 border-gray-300 hover:bg-gray-100
+                 {{ end }}"
+          data-filter-tag="{{ $btn.tag | default "*" }}">
+          {{ $btn.name }}
+        </button>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Query content similar to the official portfolio block */}}
+  {{ $query := site.Pages }}
+
+  {{ with $block.content.page_type }}
+    {{/* legacy, optional */}}
+    {{ $query = where $query "Type" . }}
+  {{ end }}
+
+  {{ with $block.content.filters.folders }}
+    {{ $query = where $query "Section" "in" . }}
+  {{ end }}
+
+  {{ with $block.content.filters.tags }}
+    {{ $query = where $query "Params.tags" "intersect" . }}
+  {{ end }}
+
+  {{ with $block.content.filters.exclude_tags }}
+    {{ $query = $query | symdiff (where site.Pages "Params.tags" "intersect" .) }}
+  {{ end }}
+
+  {{ with ($block.content.filters.kinds | default (slice "page")) }}
+    {{ $query = where $query "Kind" "in" . }}
+  {{ end }}
+
+  {{/* Sort */}}
+  {{ $sort_by := $block.content.sort_by | default "Date" }}
+  {{ $sort_by = partial "blox-core/functions/get_sort_by_parameter" $sort_by }}
+  {{ $sort_ascending := $block.content.sort_ascending | default (eq $block.content.order "asc") | default false }}
+  {{ $sort_order := cond $sort_ascending "asc" "desc" }}
+  {{ $query = sort $query $sort_by $sort_order }}
+
+  <div class="grid gap-6
+              {{ if eq $view "showcase" }}md:grid-cols-1{{ else }}md:grid-cols-2 xl:grid-cols-3{{ end }}"
+       data-portfolio-grid>
+    {{ range $index, $item := $query }}
+      {{ $tags := $item.Params.tags }}
+      {{ $tags_str := "" }}
+      {{ if $tags }}
+        {{ $tags_str = delimit $tags "," }}
+      {{ end }}
+
+      <article
+        class="portfolio-item transition
+               {{ if eq $view "showcase" }}md:col-span-2{{ end }}"
+        data-tags="{{ $tags_str }}">
+        {{/* Reuse existing card/list rendering if available */}}
+        {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index) }}
+      </article>
+    {{ end }}
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('[data-portfolio-root]').forEach(function(root) {
+        const buttons = root.querySelectorAll('[data-filter-tag]');
+        const grid = root.querySelector('[data-portfolio-grid]');
+        if (!grid) return;
+        const items = grid.querySelectorAll('[data-tags]');
+
+        function applyFilter(tag) {
+          items.forEach(function(item) {
+            const tags = (item.getAttribute('data-tags') || '').split(',').map(function(t) { return t.trim(); });
+            const show = (tag === '*') || tags.includes(tag);
+            item.style.display = show ? '' : 'none';
+          });
+        }
+
+        buttons.forEach(function(btn) {
+          btn.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const tag = btn.getAttribute('data-filter-tag') || '*';
+
+            buttons.forEach(function(b) {
+              b.classList.remove('bg-gray-900','text-white','border-gray-900');
+              b.classList.add('bg-white','text-gray-700','border-gray-300');
+            });
+
+            btn.classList.remove('bg-white','text-gray-700','border-gray-300');
+            btn.classList.add('bg-gray-900','text-white','border-gray-900');
+
+            applyFilter(tag);
+          });
+        });
+
+        // Apply default filter (first button) on load
+        const first = root.querySelector('[data-filter-tag]');
+        if (first) {
+          const defaultTag = first.getAttribute('data-filter-tag') || '*';
+          applyFilter(defaultTag);
+        }
+      });
+    });
+  </script>
+</div>

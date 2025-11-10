@@ -59,22 +59,15 @@ sections:
       text: >
         A few projects I've worked on recently.
       filters:
-        # Which folders to pull content from
         folders:
           - project
-        # Only show content with these tags (keep empty for all)
         tags: []
-        # Exclude content with these tags
         exclude_tags: []
-        # Hugo page kinds
         kinds:
           - page
-      # Field to sort by: Date or Title
       sort_by: 'Date'
       sort_ascending: false
-      # Default filter button index (0 = first button below)
       default_button_index: 0
-      # Filter toolbar buttons (optional)
       buttons:
         - name: All
           tag: '*'
@@ -83,12 +76,8 @@ sections:
         - name: ML Systems
           tag: ml-systems
     design:
-      # 1 or 2 columns for this block
       columns: '2'
-      # Layout: masonry / showcase / compact / list, etc.
-      view: showcase
-      # For showcase view, flip alternate rows?
-      flip_alt_rows: true
+      view: masonry   # or 'showcase', 'card', etc., depending on your taste
 
   - block: collection
     content:
