@@ -95,7 +95,7 @@ work:
     company_url: 'https://www.qualcomm.com/'
     icon: ''
     date_start: 2022-09-01
-    date_end: 2023-4-30
+    date_end: 2023-04-30
     summary: |
       ◦ ML-based Mitigation of Decoupling Noise in WLAN: Developed an advanced ensemble machine learning model,leveraging the ExtraTreesClassifier algorithm, to proactively predict and mitigate decoupling noise in a leading client’s product. This solution enabled precise, ahead-of-time adjustments to WLAN parameters, significantly reducing potential noise interference and enhancing product reliability. ◦ WLAN 11ax Power Analyzer: Developed from scratch a new power analyzer model that accurately captures all power states in WLAN logs, as showcased in a project with a major client. This model features an innovative, interactive visualization tool for examining power measurements, matching hardware precision and significantly enhancing diagnostic capabilities.
   - position: Graduate Research Assistant
@@ -103,7 +103,7 @@ work:
     company_url: 'https://www.northeastern.edu/'
     icon: ''
     date_start: 2018-09-01
-    date_end: 2025-4-31
+    date_end: 2025-04-31
     summary: |
       Researched and developed end-to-end project development, from dataset creation and model training to deployment optimizations.
   - position: Software Engineer
@@ -111,7 +111,7 @@ work:
     company_url: 'http://viratech.ir/'
     icon: ''
     date_start: 2014-01-01
-    date_end: 2015-6-31
+    date_end: 2015-06-31
     summary: |
       Developed the client and server sides of several clients using Angular, Bootstrap and Java.
 
