@@ -95,7 +95,7 @@ work:
     company_url: 'https://www.qualcomm.com/'
     icon: ''
     date_start: 2022-09-01
-    date_end: 2023-4-31
+    date_end: 2023-4-30
     summary: |
       ◦ ML-based Mitigation of Decoupling Noise in WLAN: Developed an advanced ensemble machine learning model,leveraging the ExtraTreesClassifier algorithm, to proactively predict and mitigate decoupling noise in a leading client’s product. This solution enabled precise, ahead-of-time adjustments to WLAN parameters, significantly reducing potential noise interference and enhancing product reliability. ◦ WLAN 11ax Power Analyzer: Developed from scratch a new power analyzer model that accurately captures all power states in WLAN logs, as showcased in a project with a major client. This model features an innovative, interactive visualization tool for examining power measurements, matching hardware precision and significantly enhancing diagnostic capabilities.
   - position: Graduate Research Assistant
