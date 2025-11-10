@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -29,18 +29,17 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Work'
+  #     subtitle: ''
+  #     text: |-
+  #       My work centers on vision-language models, multimodal learning, and efficient deployment of deep learning. I developed Grasp-LLaVA, a model that combines CLIP and Vicuna to perform zero-shot grasp classification using semantic cues like shape and feasibility, significantly outperforming traditional methods. I also worked on prosthetic hand control by fusing EMG and visual data, leading to real-time, high-accuracy grasp intent detection on a robot embedded platform. Additionally, I optimized CNNs for deployment using TensorRT and proposed new methods like NetCut for faster inference and CAEN for improving adversarial robustness. My work has led to multiple publications and a best paper award.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
 
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
+  #       Please reach out to collaborate 😃
+  #   design:
+  #     columns: '1'
   - block: collection
     id: papers
     content:
@@ -58,7 +57,7 @@ sections:
       text: ''
       filters:
         folders:
-          - publications
+          - publication
         exclude_featured: false
     design:
       view: citation
