@@ -57,14 +57,10 @@ sections:
       title: Projects
       subtitle: Selected work
       text: >
-        A few projects I've worked on recently.
+        A few projects I’ve worked on recently.
       filters:
         folders:
-          - project
-        tags: []
-        exclude_tags: []
-        kinds:
-          - page
+          - projects    
       sort_by: 'Date'
       sort_ascending: false
       default_button_index: 0
@@ -76,8 +72,8 @@ sections:
         - name: ML Systems
           tag: ml-systems
     design:
-      columns: '2'
-      view: masonry   # or 'showcase', 'card', etc., depending on your taste
+      columns: '1'
+      view: masonry
 
   - block: collection
     content:
