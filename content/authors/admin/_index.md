@@ -103,7 +103,7 @@ work:
     company_url: 'https://www.northeastern.edu/'
     icon: ''
     date_start: 2018-09-01
-    date_end: 2025-04-31
+    date_end: 2025-04-30
     summary: |
       Researched and developed end-to-end project development, from dataset creation and model training to deployment optimizations.
   - position: Software Engineer
@@ -111,7 +111,7 @@ work:
     company_url: 'http://viratech.ir/'
     icon: ''
     date_start: 2014-01-01
-    date_end: 2015-06-31
+    date_end: 2015-06-30
     summary: |
       Developed the client and server sides of several clients using Angular, Bootstrap and Java.
 
