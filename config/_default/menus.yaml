@@ -14,7 +14,7 @@ main:
     url: /#projects # projects/
     weight: 12
   - name: Publications
-    url: /#papers
+    url: /#publications
     weight: 13
   - name: Skills
     url: /#skills

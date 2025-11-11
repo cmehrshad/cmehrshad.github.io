@@ -61,7 +61,7 @@ education:
     date_start: 2018-09-01
     date_end: 2025-04-30
     summary: |
-      Thesis centers on vision-language models, multimodal learning, and efficient deployment of deep learning. Proposed Grasp-LLaVA, a model that combines CLIP and Vicuna to perform zero-shot grasp classification using semantic cues like shape and feasibility, significantly outperforming traditional methods. Also studies on prosthetic hand control by fusing EMG and visual data, leading to real-time, high-accuracy grasp intent detection on a robot embedded platform. Additionally includes optimized CNNs for deployment using TensorRT and proposed new methods like NetCut for faster inference and CAEN for improving adversarial robustness.
+      Thesis focuses on vision-language models, multimodal learning, and efficient deep learning deployment. Introduces Grasp-LLaVA for zero-shot grasp classification and advances in prosthetic hand control, optimized CNNs (TensorRT), and novel methods (NetCut, CAEN) for faster, robust inference.
   - area: MS Computer Science and Engineering
     institution: Northeastern University
     icon: ""
