@@ -85,11 +85,11 @@ work:
     date_start: 2025-01-01
     date_end: 2025-06-01
     summary: |2-
-      • Elder Care Health Bot: Built an agentic chatbot using LlamaIndex Workflows to detect user intent and route to specialized functions. Designed and maintained a Retrieval-Augmented Generation (RAG) pipeline for extracting patient documents and proactively invoking ML endpoints for disease detection. Added personalization through chatbot memory, wearable data integration, and email alerts.
+      • Elder Care Health Bot: Built an agentic chatbot using LlamaIndex Workflows with RAG pipelines for document retrieval, disease detection, and personalized health insights.
 
-      • Traffic Analyzer: Developed vehicle detection, tracking, and re-identification pipelines to provide real-time traffic insights and enhance road safety.
+      • Traffic Analyzer: Created vehicle detection and tracking system for real-time traffic analytics and safety alerts.
 
-      • DOT Copilot: Created a Microsoft Copilot agent integrating VideoIndexer capabilities to process and summarize DOT-related videos directly within Copilot.
+      • DOT Copilot: Integrated VideoIndexer with Microsoft Copilot to automate video analysis for DOT operations.
 
   - position: Interim Engineering Intern
     company_name: Qualcomm Technologies, Inc.
@@ -98,9 +98,9 @@ work:
     date_start: 2022-09-01
     date_end: 2023-04-30
     summary: |2-
-      • ML-Based Mitigation of Decoupling Noise in WLAN: Developed an ensemble ML model using ExtraTreesClassifier to predict and mitigate WLAN decoupling noise, enabling proactive parameter tuning and improving signal reliability.
+      • ML Noise Mitigation: Built ensemble model (ExtraTreesClassifier) to predict and reduce WLAN decoupling noise, improving reliability in client devices.
 
-      • WLAN 11ax Power Analyzer: Built a new power analysis tool from scratch to capture and visualize WLAN power states with hardware-level precision, providing clients with interactive diagnostic insights.
+      • WLAN 11ax Power Analyzer: Developed a power-state analyzer with interactive visualization for precise WLAN diagnostics.
 
   - position: Graduate Research Assistant
     company_name: Northeastern University
@@ -109,7 +109,7 @@ work:
     date_start: 2018-09-01
     date_end: 2025-04-30
     summary: |2-
-      Led research on multimodal learning for prosthetic hand control, integrating EMG, vision, and reasoning models. Created datasets, trained deep models, and optimized edge–cloud deployment for efficient real-time inference.
+      Led research on multimodal learning for prosthetic hand control, integrating EMG, vision, and reasoning models. Created datasets, trained deep models, and optimized edge-cloud deployment for efficient real-time inference.
 
   - position: Software Engineer
     company_name: ViraTech
