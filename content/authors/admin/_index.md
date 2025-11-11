@@ -114,32 +114,32 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - name: Languages (C/C++, Python)
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: System Optimization (CUDA, TensorRT, Pthread)
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Model Training (PyTorch, TensorFlow, Keras, Scikit-Learn)
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Agentic AI (LlamaIndex, GitHub Copilot)
-        description: ''
-        percent: 85
-        icon: command-line
-      - name: DevOps & Cloud (MS Azure, Databricks, Docker)
-        description: ''
-        percent: 90
-        icon: cloud
-      - name: Systems & Robotics (ROS, OpenCV, Linux, Bash)
-        description: ''
-        percent: 95
-        icon: cpu-chip
+  # - name: Technical Skills
+  #   items:
+    - name: Languages (C/C++, Python)
+      description: ''
+      percent: 95
+      icon: code-bracket
+    - name: System Optimization (CUDA, TensorRT, Pthread)
+      description: ''
+      percent: 90
+      icon: cpu-chip
+    - name: Model Training (PyTorch, TensorFlow, Keras, Scikit-Learn)
+      description: ''
+      percent: 100
+      icon: chart-bar
+    - name: Agentic AI (LlamaIndex, GitHub Copilot)
+      description: ''
+      percent: 85
+      icon: command-line
+    - name: DevOps & Cloud (MS Azure, Databricks, Docker)
+      description: ''
+      percent: 90
+      icon: cloud
+    - name: Systems & Robotics (ROS, OpenCV, Linux, Bash)
+      description: ''
+      percent: 95
+      icon: cpu-chip
 
 
   # - name: "Hobbies"
