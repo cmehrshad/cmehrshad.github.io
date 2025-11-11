@@ -1,0 +1,4 @@
+/* Hide the "Duplicate this template →" footer button */
+[data-hbx="poweredby_cta"] {
+  display: none !important;
+}
