@@ -5,7 +5,7 @@ authors:
   - admin
 links:
   - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+    url: "" #https://github.com/scikit-learn/scikit-learn
 tags:
   - ml-systems
   - vision

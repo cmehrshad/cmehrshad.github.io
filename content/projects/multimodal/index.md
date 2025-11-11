@@ -5,7 +5,7 @@ authors:
   - admin
 links:
   - type: site
-    url: https://github.com/pytorch/pytorch
+    url: "" #https://github.com/pytorch/pytorch
 tags:
   - vision
   - robotics
