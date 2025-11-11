@@ -127,11 +127,11 @@ skills:
       - name: Model Training (PyTorch, TensorFlow, Keras, Scikit-Learn)
         description: ''
         percent: 100
-        icon: brain
+        icon: chart-bar
       - name: Agentic AI (LlamaIndex, GitHub Copilot)
         description: ''
         percent: 85
-        icon: bot
+        icon: command-line
       - name: DevOps & Cloud (MS Azure, Databricks, Docker)
         description: ''
         percent: 90
@@ -140,6 +140,7 @@ skills:
         description: ''
         percent: 95
         icon: cpu
+
 
   # - name: "Hobbies"
   #   color: '#eeac02'
