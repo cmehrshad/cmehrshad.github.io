@@ -123,7 +123,7 @@ skills:
       - name: System Optimization (CUDA, TensorRT, Pthread)
         description: ''
         percent: 90
-        icon: cpu
+        icon: cpu-chip
       - name: Model Training (PyTorch, TensorFlow, Keras, Scikit-Learn)
         description: ''
         percent: 100
@@ -139,7 +139,7 @@ skills:
       - name: Systems & Robotics (ROS, OpenCV, Linux, Bash)
         description: ''
         percent: 95
-        icon: cpu
+        icon: cpu-chip
 
 
   # - name: "Hobbies"
