@@ -22,7 +22,7 @@ In this work, we introduce two key advances:
 
 We show that TRNs expand the accuracy-vs-latency Pareto frontier. In our experiments (on a prosthetic-hand inference task), TRNs combined with NetCut achieved up to **10.43% relative accuracy improvement** compared with standard off-the-shelf networks, while reducing network exploration time by **27×**.
 
-![NetCut Results](/assets/images/netcut.png)
+![NetCut Results](netcut.png)
 
 **Skills:** Python • Keras • scikit-learn • HPC (Discovery Cluster)  
 **Publication:** *Design, Automation & Test in Europe (DATE 2021)*.
