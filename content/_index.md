@@ -101,7 +101,7 @@ sections:
   - block: resume-skills
     id: skills
     content:
-      title: Skills & Hobbies
+      title: Skills
       username: admin
     design:
       show_skill_percentage: false
