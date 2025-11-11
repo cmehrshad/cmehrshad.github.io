@@ -124,11 +124,11 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Cloud Computing (Azure)
         description: ''
         percent: 85
         icon: cloud
-  - name: Hobbies
+  - name: ""
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
