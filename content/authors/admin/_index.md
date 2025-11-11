@@ -68,8 +68,6 @@ education:
     date_start: 2018-09-01
     date_end: 2021-05-31
     summary: |
-      GPA: 3.9/4.0
-
       Specialized in machine learning and robotics.
   - area: BS Computer Engineering
     institution: Sharif University of Technology
@@ -77,8 +75,6 @@ education:
     date_start: 2012-09-01
     date_end: 2017-09-01
     summary: |
-      GPA: 3.2/4.0
-
       Among the top 0.07% in the nationwide university entrace exam.
 
 work:

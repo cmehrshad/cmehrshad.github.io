@@ -106,6 +106,11 @@ sections:
     design:
       show_skill_percentage: false
 
+  - block: resume-awards
+    content:
+      title: Awards
+      username: admin
+
   # - block: collection
   #   id: talks
   #   content:
