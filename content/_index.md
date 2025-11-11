@@ -58,7 +58,6 @@ sections:
       subtitle: A few projects I’ve worked on recently.
       text: ""
       filters:
-      filters:
         folders:
           - projects    
       sort_by: 'Date'
