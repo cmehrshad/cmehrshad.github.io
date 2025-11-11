@@ -78,38 +78,48 @@ education:
       Among the top 0.07% in the nationwide university entrace exam.
 
 work:
-  - position: ML Engineer and Data Scientist
+  - position: ML Engineer & Data Scientist
     company_name: Vanasse Hangen Brustlin, Inc. (VHB)
     company_url: 'https://www.vhb.com/'
     icon: ''
     date_start: 2025-01-01
     date_end: 2025-06-01
     summary: |2-
-      ◦ Elder Care Health Bot: Developed a chatbot based on agentic framework of LlamaIndex Workflows to detect user intent and route to different functionalities. Built and maintained a Retrieval-Augmented Generation (RAG) pipeline to extract patient documents and proactively call ML endpoints to detect diseases. Enhanced user personalization through chatbot memory, health docs and email alerts. Analyzed data from wearable devices to detect anomalies in user health. ◦ Traffic Analyzer: Developed vehicle detection, tracking, re-identification to provide traffic insights and safety precautions. ◦ DOT Copilot: Developed a MS Copilot agent to fetch DOT information with integrated VideoIndexer capabilities to enable processing of videos in Copilot.
+      • Elder Care Health Bot: Built an agentic chatbot using LlamaIndex Workflows to detect user intent and route to specialized functions. Designed and maintained a Retrieval-Augmented Generation (RAG) pipeline for extracting patient documents and proactively invoking ML endpoints for disease detection. Added personalization through chatbot memory, wearable data integration, and email alerts.
+
+      • Traffic Analyzer: Developed vehicle detection, tracking, and re-identification pipelines to provide real-time traffic insights and enhance road safety.
+
+      • DOT Copilot: Created a Microsoft Copilot agent integrating VideoIndexer capabilities to process and summarize DOT-related videos directly within Copilot.
+
   - position: Interim Engineering Intern
     company_name: Qualcomm Technologies, Inc.
     company_url: 'https://www.qualcomm.com/'
     icon: ''
     date_start: 2022-09-01
     date_end: 2023-04-30
-    summary: |
-      ◦ ML-based Mitigation of Decoupling Noise in WLAN: Developed an advanced ensemble machine learning model,leveraging the ExtraTreesClassifier algorithm, to proactively predict and mitigate decoupling noise in a leading client’s product. This solution enabled precise, ahead-of-time adjustments to WLAN parameters, significantly reducing potential noise interference and enhancing product reliability. ◦ WLAN 11ax Power Analyzer: Developed from scratch a new power analyzer model that accurately captures all power states in WLAN logs, as showcased in a project with a major client. This model features an innovative, interactive visualization tool for examining power measurements, matching hardware precision and significantly enhancing diagnostic capabilities.
+    summary: |2-
+      • ML-Based Mitigation of Decoupling Noise in WLAN: Developed an ensemble ML model using ExtraTreesClassifier to predict and mitigate WLAN decoupling noise, enabling proactive parameter tuning and improving signal reliability.
+
+      • WLAN 11ax Power Analyzer: Built a new power analysis tool from scratch to capture and visualize WLAN power states with hardware-level precision, providing clients with interactive diagnostic insights.
+
   - position: Graduate Research Assistant
     company_name: Northeastern University
     company_url: 'https://www.northeastern.edu/'
     icon: ''
     date_start: 2018-09-01
     date_end: 2025-04-30
-    summary: |
-      Researched and developed end-to-end project development, from dataset creation and model training to deployment optimizations.
+    summary: |2-
+      Led research on multimodal learning for prosthetic hand control, integrating EMG, vision, and reasoning models. Created datasets, trained deep models, and optimized edge–cloud deployment for efficient real-time inference.
+
   - position: Software Engineer
     company_name: ViraTech
     company_url: 'http://viratech.ir/'
     icon: ''
     date_start: 2014-01-01
     date_end: 2015-06-30
-    summary: |
-      Developed the client and server sides of several clients using Angular, Bootstrap and Java.
+    summary: |2-
+      Designed and developed full-stack web applications using Angular, Bootstrap, and Java for multiple enterprise clients.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
