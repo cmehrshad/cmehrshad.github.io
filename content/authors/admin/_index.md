@@ -85,7 +85,7 @@ work:
     date_start: 2025-01-01
     date_end: 2025-06-01
     summary: |2-
-      At VHB, developed intelligent systems spanning healthcare and transportation domains. Designed the Elder Care Health Bot using LlamaIndex Workflows and a Retrieval-Augmented Generation (RAG) pipeline to personalize user interactions and proactively detect health anomalies. Built the Traffic Analyzer for vehicle detection, tracking, and re-identification to deliver actionable traffic insights, and integrated VideoIndexer into Microsoft Copilot to automate video analysis workflows for DOT operations.
+      Built intelligent systems for healthcare and transportation analytics. Developed the Elder Care Health Bot using LlamaIndex Workflows and a Retrieval-Augmented Generation (RAG) pipeline for personalized health monitoring and proactive disease detection. Created the Traffic Analyzer for vehicle detection and tracking, and integrated VideoIndexer with Microsoft Copilot to automate DOT video analysis.
 
   - position: Interim Engineering Intern
     company_name: Qualcomm Technologies, Inc.
@@ -94,7 +94,7 @@ work:
     date_start: 2022-09-01
     date_end: 2023-04-30
     summary: |2-
-      At Qualcomm, developed machine learning models and diagnostic tools to improve WLAN performance and reliability. Created an ensemble ML solution (ExtraTreesClassifier) to predict and mitigate decoupling noise in client devices, and built a 11ax Power Analyzer from scratch to visualize and interpret WLAN power states with hardware-level precision, significantly enhancing energy diagnostics.
+      Developed machine learning models and diagnostic tools to improve WLAN performance and reliability. Created an ensemble ML solution to predict and mitigate decoupling noise in client devices, and built a 11ax Power Analyzer from scratch to visualize and interpret WLAN power states with hardware-level precision, significantly enhancing energy diagnostics.
 
   - position: Graduate Research Assistant
     company_name: Northeastern University
