@@ -119,9 +119,7 @@ skills:
     percent: 95
     icon: code-bracket
     items:
-      - name: C/C++
-        icon: code-bracket
-      - name: Python
+      - name: C/C++, Python
         icon: code-bracket
 
   - name: System Optimization
@@ -129,11 +127,7 @@ skills:
     percent: 90
     icon: cpu-chip
     items:
-      - name: CUDA
-        icon: cpu-chip
-      - name: TensorRT
-        icon: cpu-chip
-      - name: Pthread
+      - name: CUDA, TensorRT, Pthread
         icon: cpu-chip
 
   - name: Model Training
@@ -141,13 +135,7 @@ skills:
     percent: 100
     icon: chart-bar
     items:
-      - name: PyTorch
-        icon: chart-bar
-      - name: TensorFlow
-        icon: chart-bar
-      - name: Keras
-        icon: chart-bar
-      - name: Scikit-Learn
+      - name: PyTorch, TensorFlow, Keras, Scikit-Learn
         icon: chart-bar
 
   - name: Agentic AI
@@ -155,9 +143,7 @@ skills:
     percent: 85
     icon: command-line
     items:
-      - name: LlamaIndex
-        icon: command-line
-      - name: GitHub Copilot
+      - name: LlamaIndex, GitHub Copilot
         icon: command-line
 
   - name: DevOps & Cloud
@@ -165,11 +151,7 @@ skills:
     percent: 90
     icon: cloud
     items:
-      - name: MS Azure
-        icon: cloud
-      - name: Databricks
-        icon: cloud
-      - name: Docker
+      - name: MS Azure, Databricks, Docker
         icon: cloud
 
   - name: Systems & Robotics
@@ -177,13 +159,7 @@ skills:
     percent: 95
     icon: cpu-chip
     items:
-      - name: ROS
-        icon: cpu-chip
-      - name: OpenCV
-        icon: cpu-chip
-      - name: Linux
-        icon: cpu-chip
-      - name: Bash
+      - name: ROS, OpenCV, Linux, Bash
         icon: cpu-chip
 
 
