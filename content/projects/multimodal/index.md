@@ -26,7 +26,7 @@ We analyze both individual and fused performance as a function of time as the ha
 On average, fusion improves instantaneous upcoming grasp-type classification accuracy during the reaching phase by **13.66%** and **14.8%** relative to EMG (**81.64% non-fused**) and visual evidence (**80.5% non-fused**) individually, achieving an overall **fusion accuracy of 95.3%**.
 
 ![Fusion Results Graph](fusion.png)  
-*Figure: Comparative accuracy of EMG, visual, and fused modalities during the reaching phase.*
+*Figure: Comparative accuracy of EMG, visual, and fused modalities during different phases.*
 
 **Conclusion:**  
 Our analyses demonstrate that EMG and visual evidence provide complementary information. As a result, **multimodal evidence fusion** outperforms each individual modality across all time frames, offering a more robust and reliable grasp intent inference for prosthetic hand control.
