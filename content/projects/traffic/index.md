@@ -10,6 +10,6 @@ tags:
   - vision
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+Developed vehicle detection, tracking, re-identification to provide traffic insights and safety precautions.
 
 <!--more-->

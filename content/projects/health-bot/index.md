@@ -8,9 +8,12 @@ links:
     url: https://github.com/scikit-learn/scikit-learn
 tags:
   - agentic-ai
-  - LLM
+  - llm
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+Developed a chatbot based on agentic framework of LlamaIndex Workflows to detect user intent
+and route to different functionalities. Built and maintained a Retrieval-Augmented Generation (RAG) pipeline to extract
+patient documents and proactively call ML endpoints to detect diseases. Enhanced user personalization through chatbot
+memory, health docs and email alerts. Analyzed data from wearable devices to detect anomalies in user health.
 
 <!--more-->

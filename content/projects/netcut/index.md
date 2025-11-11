@@ -11,6 +11,9 @@ tags:
   - vision
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+◦ Proposed a methodology to remove problem-specific features of ConvNets to improve measured inference latency.
+◦ As an orthogonal method, NetCut can be used in combination of other conventional inference acceleration methods.
+◦ Skills: Python, Keras, Discovery Cluster, scikit-learn
+◦ Published as a conference paper in DATE 2021
 
 <!--more-->
