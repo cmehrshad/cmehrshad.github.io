@@ -1,4 +1,4 @@
-{{/* Hugo Blox: Custom Tailwind Portfolio Block (centered, simplified) */}}
+{{/* Hugo Blox: Custom Tailwind Portfolio Block (left-aligned, simplified) */}}
 
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
@@ -6,9 +6,9 @@
 {{ $columns := $block.design.columns | default "1" }}
 {{ $view := $block.design.view | default "masonry" }}
 
-<div class="container mx-auto px-6 text-center" data-portfolio-root>
+<div class="w-full {{ if eq $columns "2" }}lg:w-2/3{{ end }} mx-auto" data-portfolio-root>
   {{ with $block.content.text }}
-    <div class="mb-4 prose max-w-3xl mx-auto">
+    <div class="mb-4 prose max-w-none">
       {{ . | $page.RenderString | emojify }}
     </div>
   {{ end }}
@@ -16,7 +16,7 @@
   {{ if $block.content.buttons }}
     {{ $filter_default := default (int $block.content.default_button_index) 0 }}
 
-    <div class="flex flex-wrap justify-center gap-2 mb-8" data-portfolio-buttons>
+    <div class="flex flex-wrap gap-2 mb-8" data-portfolio-buttons>
       {{ range $idx, $btn := $block.content.buttons }}
         <button
           type="button"
@@ -46,7 +46,7 @@
   {{ $sort_order := cond $sort_ascending "asc" "desc" }}
   {{ $query = sort $query $sort_by $sort_order }}
 
-  <div class="mx-auto max-w-7xl grid gap-4 md:grid-cols-3 xl:grid-cols-3"
+  <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3"
        data-portfolio-grid>
     {{ range $index, $item := $query }}
       {{ $tags := $item.Params.tags }}

@@ -51,6 +51,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+  
   - block: portfolio
     id: projects
     content:
