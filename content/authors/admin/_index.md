@@ -128,7 +128,7 @@ skills:
         icon: chart-bar
   - name: Agentic AI
     items:
-      - name: LlamaIndex, GitHub Copilot
+      - name: LlamaIndex, Copilot Studio
         icon: command-line
   - name: DevOps & Cloud
     items:
