@@ -6,7 +6,7 @@
 {{ $columns := $block.design.columns | default "1" }}
 {{ $view := $block.design.view | default "masonry" }}
 
-<div class="w-full {{ if eq $columns "2" }}lg:w-2/3{{ end }} mx-auto" data-portfolio-root>
+<div class="container {{ if eq $columns "2" }}lg:w-2/3{{ end }} mx-auto" data-portfolio-root>
   {{ with $block.content.text }}
     <div class="mb-4 prose max-w-none">
       {{ . | $page.RenderString | emojify }}
