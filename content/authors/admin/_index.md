@@ -85,11 +85,7 @@ work:
     date_start: 2025-01-01
     date_end: 2025-06-01
     summary: |2-
-      • Elder Care Health Bot: Built an agentic chatbot using LlamaIndex Workflows with RAG pipelines for document retrieval, disease detection, and personalized health insights.
-
-      • Traffic Analyzer: Created vehicle detection and tracking system for real-time traffic analytics and safety alerts.
-
-      • DOT Copilot: Integrated VideoIndexer with Microsoft Copilot to automate video analysis for DOT operations.
+      At VHB, developed intelligent systems spanning healthcare and transportation domains. Designed the Elder Care Health Bot using LlamaIndex Workflows and a Retrieval-Augmented Generation (RAG) pipeline to personalize user interactions and proactively detect health anomalies. Built the Traffic Analyzer for vehicle detection, tracking, and re-identification to deliver actionable traffic insights, and integrated VideoIndexer into Microsoft Copilot to automate video analysis workflows for DOT operations.
 
   - position: Interim Engineering Intern
     company_name: Qualcomm Technologies, Inc.
@@ -98,9 +94,7 @@ work:
     date_start: 2022-09-01
     date_end: 2023-04-30
     summary: |2-
-      • ML Noise Mitigation: Built ensemble model (ExtraTreesClassifier) to predict and reduce WLAN decoupling noise, improving reliability in client devices.
-
-      • WLAN 11ax Power Analyzer: Developed a power-state analyzer with interactive visualization for precise WLAN diagnostics.
+      At Qualcomm, developed machine learning models and diagnostic tools to improve WLAN performance and reliability. Created an ensemble ML solution (ExtraTreesClassifier) to predict and mitigate decoupling noise in client devices, and built a 11ax Power Analyzer from scratch to visualize and interpret WLAN power states with hardware-level precision, significantly enhancing energy diagnostics.
 
   - position: Graduate Research Assistant
     company_name: Northeastern University
