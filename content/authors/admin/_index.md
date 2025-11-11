@@ -85,16 +85,7 @@ work:
     date_start: 2025-01-01
     date_end: 2025-06-01
     summary: |2-
-      Built intelligent systems for healthcare and transportation analytics. Developed the Elder Care Health Bot using LlamaIndex Workflows and a Retrieval-Augmented Generation (RAG) pipeline for personalized health monitoring and proactive disease detection. Created the Traffic Analyzer for vehicle detection and tracking, and integrated VideoIndexer with Microsoft Copilot to automate DOT video analysis.
-
-  - position: Interim Engineering Intern
-    company_name: Qualcomm Technologies, Inc.
-    company_url: 'https://www.qualcomm.com/'
-    icon: ''
-    date_start: 2022-09-01
-    date_end: 2023-04-30
-    summary: |2-
-      Developed machine learning models and diagnostic tools to improve WLAN performance and reliability. Created an ensemble ML solution to predict and mitigate decoupling noise in client devices, and built a 11ax Power Analyzer from scratch to visualize and interpret WLAN power states with hardware-level precision, significantly enhancing energy diagnostics.
+      Built intelligent systems for healthcare and transportation analytics. Developed the Elder Care Health Bot using LlamaIndex Workflows and a Retrieval-Augmented Generation (RAG) pipeline for personalized health monitoring and proactive disease detection. Improved traffic safety by createing the Traffic Analyzer for vehicle detection and tracking.
 
   - position: Graduate Research Assistant
     company_name: Northeastern University
@@ -104,6 +95,15 @@ work:
     date_end: 2025-04-30
     summary: |2-
       Led research on multimodal learning for prosthetic hand control, integrating EMG, vision, and reasoning models. Created datasets, trained deep models, and optimized edge-cloud deployment for efficient real-time inference.
+
+  - position: Interim Engineering Intern
+    company_name: Qualcomm Technologies, Inc.
+    company_url: 'https://www.qualcomm.com/'
+    icon: ''
+    date_start: 2022-09-01
+    date_end: 2023-04-30
+    summary: |2-
+      Developed machine learning models and diagnostic tools to improve WLAN performance and reliability. Created an ensemble ML solution to predict and mitigate decoupling noise in client devices, and built a 11ax Power Analyzer from scratch to visualize and interpret WLAN power states with hardware-level precision, significantly enhancing energy diagnostics.
 
   - position: Software Engineer
     company_name: ViraTech
