@@ -56,7 +56,7 @@ sections:
     id: projects
     content:
       title: Projects
-      subtitle: A few projects I’ve worked on recently.
+      subtitle: "" #A few projects I’ve worked on recently.
       text: ""
       filters:
         folders:
