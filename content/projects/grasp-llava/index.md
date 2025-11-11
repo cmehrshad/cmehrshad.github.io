@@ -7,7 +7,9 @@ links:
   - type: site
     url: https://github.com/pandas-dev/pandas
 tags:
-  - robotics
+  - llm
+  - vision
+  - ml-systems
 ---
 
 Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
