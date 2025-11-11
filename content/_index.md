@@ -72,7 +72,7 @@ sections:
         - name: ML Systems
           tag: ml-systems
     design:
-      columns: '1'
+      columns: '3'
       view: masonry
 
   - block: collection
