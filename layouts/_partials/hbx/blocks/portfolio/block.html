@@ -8,11 +8,11 @@
 
 <div class="container {{ if eq $columns "2" }}lg:w-2/3{{ end }} mx-auto" data-portfolio-root>
   {{ with $block.content.title }}
-    <h1 class="text-3xl font-semibold mb-1">{{ . }}</h1>
+    <h1 class="text-3xl font-semibold mb-1 text-center"">{{ . }}</h1>
   {{ end }}
-  {{ with $block.content.subtitle }}
-    <p class="text-gray-600 mb-6">{{ . }}</p>
-  {{ end }}
+  <!-- {{ with $block.content.subtitle }}
+    <p class="text-gray-600 mb-6 text-center"">{{ . }}</p>
+  {{ end }} -->
   
   {{ with $block.content.text }}
     <div class="mb-4 prose max-w-none">
