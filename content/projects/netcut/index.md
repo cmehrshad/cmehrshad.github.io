@@ -1,5 +1,5 @@
 ---
-title: scikit-learn
+title: NetCut
 date: 2023-10-26
 authors:
   - admin

@@ -78,6 +78,12 @@ sections:
       buttons:
         - name: All
           tag: '*'
+        - name: LLM
+          tag: llm
+        - name: Agentic AI
+          tag: agentic-ai
+        - name: Computer Vision
+          tag: vision
         - name: Robotics
           tag: robotics
         - name: ML Systems
