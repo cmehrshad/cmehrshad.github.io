@@ -1,4 +1,4 @@
-{{/* Hugo Blox: Custom Tailwind Portfolio Block */}}
+{{/* Hugo Blox: Custom Tailwind Portfolio Block (centered, simplified) */}}
 
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
@@ -6,22 +6,21 @@
 {{ $columns := $block.design.columns | default "1" }}
 {{ $view := $block.design.view | default "masonry" }}
 
-<div class="w-full {{ if eq $columns "2" }}lg:w-2/3{{ end }}" data-portfolio-root>
+<div class="container mx-auto px-6 text-center" data-portfolio-root>
   {{ with $block.content.text }}
-    <div class="mb-4 prose max-w-none">
+    <div class="mb-4 prose max-w-3xl mx-auto">
       {{ . | $page.RenderString | emojify }}
     </div>
   {{ end }}
 
   {{ if $block.content.buttons }}
     {{ $filter_default := default (int $block.content.default_button_index) 0 }}
-    {{ $default_button := index $block.content.buttons $filter_default }}
 
-    <div class="flex flex-wrap gap-2 mb-6" data-portfolio-buttons>
+    <div class="flex flex-wrap justify-center gap-2 mb-8" data-portfolio-buttons>
       {{ range $idx, $btn := $block.content.buttons }}
         <button
           type="button"
-          class="px-3 py-1 text-sm rounded border transition
+          class="px-3 py-1 text-sm rounded-full border transition
                  {{ if eq $idx $filter_default }}
                    bg-gray-900 text-white border-gray-900
                  {{ else }}
@@ -34,37 +33,20 @@
     </div>
   {{ end }}
 
-  {{/* Query content similar to the official portfolio block */}}
-  {{ $query := site.Pages }}
+  {{/* SIMPLE QUERY:
+        - default folder: projects
+        - show all regular pages in those sections
+        - JS does tag filtering client-side */}}
 
-  {{ with $block.content.page_type }}
-    {{ $query = where $query "Type" . }}
-  {{ end }}
+  {{ $folders := $block.content.filters.folders | default (slice "projects") }}
+  {{ $query := where site.RegularPages "Section" "in" $folders }}
 
-  {{ with $block.content.filters.folders }}
-    {{ $query = where $query "Section" "in" . }}
-  {{ end }}
-
-  {{ with $block.content.filters.tags }}
-    {{ $query = where $query "Params.tags" "intersect" . }}
-  {{ end }}
-
-  {{ with $block.content.filters.exclude_tags }}
-    {{ $query = $query | symdiff (where site.Pages "Params.tags" "intersect" .) }}
-  {{ end }}
-
-  {{ with ($block.content.filters.kinds | default (slice "page")) }}
-    {{ $query = where $query "Kind" "in" . }}
-  {{ end }}
-
-  {{/* Sort */}}
   {{ $sort_by := $block.content.sort_by | default "Date" }}
   {{ $sort_ascending := $block.content.sort_ascending | default false }}
   {{ $sort_order := cond $sort_ascending "asc" "desc" }}
   {{ $query = sort $query $sort_by $sort_order }}
 
-  <div class="grid gap-6
-              {{ if eq $view "showcase" }}md:grid-cols-1{{ else }}md:grid-cols-2 xl:grid-cols-3{{ end }}"
+  <div class="mx-auto max-w-7xl grid gap-4 md:grid-cols-3 xl:grid-cols-3"
        data-portfolio-grid>
     {{ range $index, $item := $query }}
       {{ $tags := $item.Params.tags }}
@@ -74,8 +56,7 @@
       {{ end }}
 
       <article
-        class="portfolio-item transition
-               {{ if eq $view "showcase" }}md:col-span-2{{ end }}"
+        class="portfolio-item transition"
         data-tags="{{ $tags_str }}">
         {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index) }}
       </article>
